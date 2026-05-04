@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="#1C0A00"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/scoreEmoji"
+        android:textSize="52sp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#F5E6C8"
+        android:textAlignment="center"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/scoreMessage"
+        android:textSize="15sp"
+        android:textColor="#9A8A7A"
+        android:textAlignment="center"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/reviewButton"
+        android:text="Review Answers"
+        android:textColor="#1C0A00"
+        android:backgroundTint="#C47B2B"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/retryButton"
+        android:text="Try Again"
+        android:textColor="#F5E6C8"
+        android:backgroundTint="#3B1A08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
